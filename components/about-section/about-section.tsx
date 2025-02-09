@@ -5,41 +5,45 @@ import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../ui/tracing-beam";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
+export const aboutSectionId = "about-section-id";
+
 const AboutSection = () => {
   return (
-    <TracingBeam className="px-6">
-      <TextGenerateEffect
-        words={"Giới thiệu về AEC"}
-        className="text-center"
-        textClassname="text-4xl capitalize"
-      />
-      <div className="max-w-2xl mx-auto antialiased pt-4 relative mt-8">
-        {dummyContent.map((item, index) => (
-          <div key={`content-${index}`} className="mb-10">
-            <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
-              {item.badge}
-            </h2>
+    <div id={aboutSectionId}>
+      <TracingBeam className="px-6">
+        <TextGenerateEffect
+          words={"Giới thiệu về AEC"}
+          className="text-center"
+          textClassname="text-4xl capitalize"
+        />
+        <div className="max-w-2xl mx-auto antialiased pt-4 relative mt-8">
+          {dummyContent.map((item, index) => (
+            <div key={`content-${index}`} className="mb-10">
+              <h2 className="bg-black text-white rounded-full text-sm w-fit px-4 py-1 mb-4">
+                {item.badge}
+              </h2>
 
-            <p className={twMerge("text-xl mb-4 text-primary font-bold")}>
-              {item.title}
-            </p>
+              <p className={twMerge("text-xl mb-4 text-primary font-bold")}>
+                {item.title}
+              </p>
 
-            <div className="text-sm  prose prose-sm dark:prose-invert">
-              {item?.image && (
-                <Image
-                  src={item.image}
-                  alt="blog thumbnail"
-                  height="1000"
-                  width="1000"
-                  className="rounded-lg mb-10 object-cover"
-                />
-              )}
-              {item.description}
+              <div className="text-sm  prose prose-sm dark:prose-invert">
+                {item?.image && (
+                  <Image
+                    src={item.image}
+                    alt="blog thumbnail"
+                    height="1000"
+                    width="1000"
+                    className="rounded-lg mb-10 object-cover"
+                  />
+                )}
+                {item.description}
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </TracingBeam>
+          ))}
+        </div>
+      </TracingBeam>
+    </div>
   );
 };
 
