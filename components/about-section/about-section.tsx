@@ -5,17 +5,16 @@ import { twMerge } from "tailwind-merge";
 import { TracingBeam } from "../ui/tracing-beam";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
-export const aboutSectionId = "about-section-id";
-
 const AboutSection = () => {
   return (
-    <div id={aboutSectionId}>
+    <div className="container">
+      <TextGenerateEffect
+        words={"Giới thiệu về AEC"}
+        textClassname="text-4xl capitalize"
+        className="text-center"
+      />
+
       <TracingBeam className="px-6">
-        <TextGenerateEffect
-          words={"Giới thiệu về AEC"}
-          className="text-center"
-          textClassname="text-4xl capitalize"
-        />
         <div className="max-w-2xl mx-auto antialiased pt-4 relative mt-8">
           {dummyContent.map((item, index) => (
             <div key={`content-${index}`} className="mb-10">
