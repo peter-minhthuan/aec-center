@@ -12,6 +12,7 @@ export default {
     extend: {
       container: {
         center: true,
+        padding: "12px",
       },
       colors: {
         background: "hsl(var(--background))",

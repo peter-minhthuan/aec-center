@@ -10,7 +10,7 @@ const NavBar = () => {
   const path = usePathname();
 
   return (
-    <nav className="px-8 rounded-full border-solid border border-border">
+    <nav className="px-8 rounded-full border-solid border border-border hidden md:block">
       <ul className="flex items-center gap-4 text-sm">
         <li
           className={cn("hover:text-primary transition-all duration-200 py-3", {
@@ -30,15 +30,17 @@ const NavBar = () => {
         >
           Khóa học
           <ul
-            className="absolute top-full w-56 bg-card opacity-0 invisible z-50
+            className="absolute top-full w-56 bg-card opacity-0 invisible z-50 py-2
             group-hover:opacity-100 group-hover:visible transition-all duration-200 rounded-md"
           >
             {courses.map((item) => (
               <li
                 key={item.title}
-                className="text-foreground p-4 pb-0 last:pb-4 hover:text-primary"
+                className="text-foreground hover:text-primary"
               >
-                <Link href={item.link}>{item.title}</Link>
+                <Link href={item.link} className="inline-block w-full p-4 py-2">
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>

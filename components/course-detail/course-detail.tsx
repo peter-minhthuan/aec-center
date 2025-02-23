@@ -15,7 +15,7 @@ const coursesContent = {
           width={500}
           height={350}
           alt="Toán"
-          className="mx-auto mb-8 rounded-md"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
         />
 
         <p>
@@ -69,7 +69,7 @@ const coursesContent = {
           width={500}
           height={350}
           alt="Tiếng Anh"
-          className="mx-auto mb-8 rounded-md"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
         />
         <p>
           Luyện thi Tiếng Anh vào lớp 10 và luyện thi chuyên Anh vào trường
@@ -122,7 +122,7 @@ const coursesContent = {
           width={500}
           height={350}
           alt="Luyện thi SAT"
-          className="mx-auto mb-8 rounded-md"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
         />
         <p>
           Kỳ thi SAT (Scholastic Assessment Test) là một trong những kỳ thi
@@ -209,7 +209,7 @@ const coursesContent = {
           width={500}
           height={350}
           alt="Code frontend"
-          className="mx-auto mb-8 rounded-md"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
         />
 
         <p>Vì sao nên học lập trình web tại Authentic EDU?</p>
@@ -246,7 +246,7 @@ const coursesContent = {
           width={500}
           height={350}
           alt="git"
-          className="mx-auto mb-8 rounded-md"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
         />
 
         <p>Bạn sẽ học được gì sau khóa học?</p>
@@ -300,7 +300,7 @@ const coursesContent = {
           width={500}
           height={350}
           alt="thiết kế"
-          className="mx-auto mb-8 rounded-md"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
         />
 
         <p>
@@ -358,7 +358,7 @@ const coursesContent = {
           width={500}
           height={350}
           alt="vật lý"
-          className="mx-auto mb-8 rounded-md"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
         />
 
         <p>
@@ -416,8 +416,10 @@ const CourseDetail = () => {
 
   return (
     <div className="pb-20">
-      <div className="container lg:px-24">
-        {coursesContent[slug as unknown as any].description}
+      <div className="container">
+        <div className="lg:px-24 px-4">
+          {coursesContent[slug as unknown as any].description}
+        </div>
       </div>
     </div>
   );

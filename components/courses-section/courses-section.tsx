@@ -10,9 +10,9 @@ const CourseSection = () => {
       <TextGenerateEffect
         words={"Các khóa học tại AEC"}
         className="text-center"
-        textClassname="text-4xl capitalize"
+        textClassname="text-2xl lg:text-4xl capitalize"
       />
-      <div className="max-w-5xl mx-auto px-8">
+      <div className="max-w-5xl mx-auto lg:px-8">
         <HoverEffect items={courses} />
       </div>
     </div>
