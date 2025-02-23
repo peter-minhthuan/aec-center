@@ -1,11 +1,16 @@
+import Image from "next/image";
 import React from "react";
-// import ColourfulText from "../ui/colourful-text";
 
 const Logo = () => {
   return (
     <h1 className="text-2xl font-bold text-center text-primary">
-      {/* <ColourfulText text="ACE" /> */}
-      AEC
+      <Image
+        src={"/assets/logo.jpg"}
+        width={64}
+        height={64}
+        alt="AEC"
+        className="rounded-sm object-cover"
+      />
     </h1>
   );
 };

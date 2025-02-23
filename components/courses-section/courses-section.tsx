@@ -1,3 +1,4 @@
+import { courses } from "@/constant/common";
 import { HoverEffect } from "../ui/card-hover-effect";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
@@ -19,36 +20,3 @@ const CourseSection = () => {
 };
 
 export default CourseSection;
-
-export const courses = [
-  {
-    title: "Toán",
-    description: "Học toán từ cơ bản tới nâng cao",
-    link: "#",
-  },
-  {
-    title: "Tiếng Anh",
-    description: "Học tiếng anh từ cơ bản tới nâng cao",
-    link: "#",
-  },
-  {
-    title: "Luyện thi SAT",
-    description: "Luyện thi SAT chuyên nghiệp",
-    link: "#",
-  },
-  {
-    title: "Lập trình",
-    description: "Lập trình Web front-end từ cơ bản đến nâng cao",
-    link: "#",
-  },
-  {
-    title: "Thiết kế",
-    description: "Học thiết kế cơ bản đến nâng cao",
-    link: "#",
-  },
-  {
-    title: "Vật lý",
-    description: "Học vật lý từ cơ bản đến nâng cao",
-    link: "#",
-  },
-];
