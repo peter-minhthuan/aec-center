@@ -31,9 +31,9 @@ const AboutSection = () => {
                   <Image
                     src={item.image}
                     alt="blog thumbnail"
-                    height="1000"
+                    height="500"
                     width="1000"
-                    className="rounded-lg mb-10 object-cover"
+                    className="rounded-lg mb-10 object-cover h-[456px]"
                   />
                 )}
                 {item.description}
@@ -71,8 +71,7 @@ const dummyContent = [
       </div>
     ),
     badge: "AEC",
-    image:
-      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/education.avif",
   },
   {
     title: "Tầm nhìn và sứ mệnh",
@@ -95,8 +94,7 @@ const dummyContent = [
       </div>
     ),
     badge: "AEC",
-    image:
-      "https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=3540&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/vision.avif",
   },
   {
     title: "Ý nghĩa của AEC",
@@ -118,8 +116,7 @@ const dummyContent = [
       </div>
     ),
     badge: "AEC",
-    image:
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/mission.jpg",
   },
   {
     title: "SỰ KHÁC BIỆT CỦA AEC",
@@ -145,8 +142,7 @@ const dummyContent = [
       </div>
     ),
     badge: "AEC",
-    image:
-      "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&q=80&w=3506&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    image: "/assets/unique.avif",
   },
 ];
 
