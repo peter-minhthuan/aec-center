@@ -16,12 +16,14 @@ export const courses = [
         trọng cho nhiều ngành nghề trong tương lai. Vì vậy, việc học tốt môn
         Toán có thể mở ra nhiều cơ hội cho học sinh.`,
     link: courseSlug.math,
+    image: "/assets/math.jpg",
   },
   {
     title: "Tiếng Anh",
     description: `Luyện thi Tiếng Anh vào lớp 10 và luyện thi chuyên Anh vào trường chuyên
         là quá trình quan trọng giúp học sinh đạt được mục tiêu học tập cao hơn.`,
     link: courseSlug.english,
+    image: "/assets/english.jpg",
   },
   {
     title: "Luyện thi SAT",
@@ -31,6 +33,7 @@ export const courses = [
         đánh giá kỹ năng tư duy, khả năng phân tích và kiến thức của học sinh
         trong các lĩnh vực chính như Toán học, Đọc hiểu và Viết.`,
     link: courseSlug.sat,
+    image: "/assets/test.avif",
   },
   {
     title: "Lập trình web",
@@ -40,6 +43,7 @@ export const courses = [
     chương trình học thực tiễn, cùng môi trường học tập năng động, 
     AEC cam kết trang bị cho bạn kiến thức vững chắc và kỹ năng thực chiến để sẵn sàng cho công việc trong ngành công nghệ.`,
     link: courseSlug.frontend,
+    image: "/assets/code.jpg",
   },
   {
     title: "Thiết kế",
@@ -47,6 +51,7 @@ export const courses = [
     Hãy tham gia khóa học Thiết kế Photoshop tại Authentic EDU, nơi cung cấp lộ trình học tập bài bản, 
     giúp bạn làm chủ công cụ thiết kế hàng đầu thế giới.`,
     link: courseSlug.design,
+    image: "/assets/design.avif",
   },
   {
     title: "Vật lý",
@@ -57,5 +62,6 @@ export const courses = [
     Authentic EDU mang đến chương trình dạy thêm Vật lý chuyên sâu, giúp học sinh nắm vững kiến thức 
     và tự tin đạt kết quả cao trong các kỳ thi.`,
     link: courseSlug.physics,
+    image: "/assets/physic.avif",
   },
 ];
