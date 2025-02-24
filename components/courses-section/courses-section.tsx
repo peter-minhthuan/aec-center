@@ -8,7 +8,7 @@ const CourseSection = () => {
   return (
     <div id={courseId}>
       <TextGenerateEffect
-        words={"Các khóa học tại AEC"}
+        words={"Các khóa học tại Authentic EDU"}
         className="text-center"
         textClassname="text-2xl lg:text-4xl capitalize"
       />

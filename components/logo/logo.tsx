@@ -8,10 +8,10 @@ const Logo = () => {
       <Link href={"/"}>
         <Image
           src={"/assets/logo.jpg"}
-          width={64}
-          height={64}
-          alt="AEC"
-          className="rounded-sm object-cover"
+          width={78}
+          height={78}
+          alt="Authentic EDU"
+          className="rounded-sm w-14 h-12 md:w-20 md:h-16"
         />
       </Link>
     </h1>

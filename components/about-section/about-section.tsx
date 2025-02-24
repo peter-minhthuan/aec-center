@@ -9,7 +9,7 @@ const AboutSection = () => {
   return (
     <div className="container">
       <TextGenerateEffect
-        words={"Giới thiệu về AEC"}
+        words={"Giới thiệu về Authentic EDU"}
         textClassname="text-4xl capitalize"
         className="text-center"
       />
@@ -58,19 +58,19 @@ const dummyContent = [
         </p>
         <br />
         <p>
-          Trung tâm bồi dưỡng văn hóa AEC không chỉ là nơi cung cấp kiến thức mà
-          còn là bệ phóng giúp học viên làm chủ tri thức, thích ứng với sự thay
-          đổi của thế giới và phát triển toàn diện.
+          Trung tâm bồi dưỡng văn hóa Authentic EDU không chỉ là nơi cung cấp
+          kiến thức mà còn là bệ phóng giúp học viên làm chủ tri thức, thích ứng
+          với sự thay đổi của thế giới và phát triển toàn diện.
         </p>
         <br />
         <p>
           Việc áp dụng công nghệ, phương pháp giảng dạy mới và hướng đến hội
-          nhập toàn cầu chính là chìa khóa giúp trung tâm AEC luôn hướng đến
-          trong giáo dục.
+          nhập toàn cầu chính là chìa khóa giúp trung tâm Authentic EDU luôn
+          hướng đến trong giáo dục.
         </p>
       </div>
     ),
-    badge: "AEC",
+    badge: "Authentic EDU",
     image: "/assets/education.avif",
   },
   {
@@ -93,20 +93,20 @@ const dummyContent = [
         </ul>
       </div>
     ),
-    badge: "AEC",
+    badge: "Authentic EDU",
     image: "/assets/vision.avif",
   },
   {
-    title: "Ý nghĩa của AEC",
+    title: "Ý nghĩa của Authentic EDU",
     description: (
       <div className="text-base">
         <p>ACE là viết tắt của Authentic Education Center.</p>
         <br />
         <p>
-          Logo của AEC với màu tím tượng trưng cho tuổi học trò tươi đẹp, trẻ
-          trung và nhiều hoài bão. Chiếc mũ tốt nghiệp cũng ẩn trong hình tượng
-          cuốn sách tượng trưng cho giáo dục, học tập và thành công trong học
-          vấn.
+          Logo của Authentic EDU với màu tím tượng trưng cho tuổi học trò tươi
+          đẹp, trẻ trung và nhiều hoài bão. Chiếc mũ tốt nghiệp cũng ẩn trong
+          hình tượng cuốn sách tượng trưng cho giáo dục, học tập và thành công
+          trong học vấn.
         </p>
         <br />
         <p>
@@ -115,11 +115,11 @@ const dummyContent = [
         </p>
       </div>
     ),
-    badge: "AEC",
+    badge: "Authentic EDU",
     image: "/assets/mission.jpg",
   },
   {
-    title: "SỰ KHÁC BIỆT CỦA AEC",
+    title: "SỰ KHÁC BIỆT CỦA Authentic EDU",
     description: (
       <div className="text-base">
         <p>Hiểu rõ học sinh</p>
@@ -141,7 +141,7 @@ const dummyContent = [
         <p>Ứng dụng tối đa công nghệ và thực tiễn vào giảng bài.</p>
       </div>
     ),
-    badge: "AEC",
+    badge: "Authentic EDU",
     image: "/assets/unique.avif",
   },
 ];

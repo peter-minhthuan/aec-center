@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 
 export const metaConfigs: Metadata = {
-  title: "Authentic Education Center - AEC",
+  title: "Authentic Education Center - Authentic EDU",
   description: "Authentic Education Center.",
   appleWebApp: true,
   authors: {

@@ -26,6 +26,17 @@ export const courses = [
     image: "/assets/english.jpg",
   },
   {
+    title: "Vật lý",
+    description: `Vật lý là một môn học quan trọng, không chỉ giúp học sinh hiểu về các quy 
+    luật của tự nhiên mà còn rèn luyện tư duy logic và khả năng giải quyết vấn đề. 
+    Tuy nhiên, không ít học sinh gặp khó khăn khi tiếp cận môn học này do tính trừu 
+    tượng và yêu cầu cao về kỹ năng tính toán. Hiểu được điều đó, trung tâm bồi dưỡng văn hóa 
+    Authentic EDU mang đến chương trình dạy thêm Vật lý chuyên sâu, giúp học sinh nắm vững kiến thức 
+    và tự tin đạt kết quả cao trong các kỳ thi.`,
+    link: courseSlug.physics,
+    image: "/assets/physic.avif",
+  },
+  {
     title: "Luyện thi SAT",
     description: `Kỳ thi SAT (Scholastic Assessment Test) là một trong những kỳ thi chuẩn
         hóa quan trọng dành cho học sinh trung học có ý định đăng ký vào các
@@ -38,10 +49,10 @@ export const courses = [
   {
     title: "Lập trình web",
     description: `Bạn muốn trở thành lập trình viên chuyên nghiệp? 
-    Khóa học lập trình tại AEC sẽ giúp bạn làm chủ các ngôn ngữ lập trình hiện đại như HTML5, CSS3/SCSS, JavaScript/JQuery, Reactjs,..
+    Khóa học lập trình tại Authentic EDU sẽ giúp bạn làm chủ các ngôn ngữ lập trình hiện đại như HTML5, CSS3/SCSS, JavaScript/JQuery, Reactjs,..
     và nhiều công nghệ khác. Với đội ngũ giảng viên giàu kinh nghiệm, 
     chương trình học thực tiễn, cùng môi trường học tập năng động, 
-    AEC cam kết trang bị cho bạn kiến thức vững chắc và kỹ năng thực chiến để sẵn sàng cho công việc trong ngành công nghệ.`,
+    Authentic EDU cam kết trang bị cho bạn kiến thức vững chắc và kỹ năng thực chiến để sẵn sàng cho công việc trong ngành công nghệ.`,
     link: courseSlug.frontend,
     image: "/assets/code.jpg",
   },
@@ -52,16 +63,5 @@ export const courses = [
     giúp bạn làm chủ công cụ thiết kế hàng đầu thế giới.`,
     link: courseSlug.design,
     image: "/assets/design.avif",
-  },
-  {
-    title: "Vật lý",
-    description: `Vật lý là một môn học quan trọng, không chỉ giúp học sinh hiểu về các quy 
-    luật của tự nhiên mà còn rèn luyện tư duy logic và khả năng giải quyết vấn đề. 
-    Tuy nhiên, không ít học sinh gặp khó khăn khi tiếp cận môn học này do tính trừu 
-    tượng và yêu cầu cao về kỹ năng tính toán. Hiểu được điều đó, trung tâm bồi dưỡng văn hóa 
-    Authentic EDU mang đến chương trình dạy thêm Vật lý chuyên sâu, giúp học sinh nắm vững kiến thức 
-    và tự tin đạt kết quả cao trong các kỳ thi.`,
-    link: courseSlug.physics,
-    image: "/assets/physic.avif",
   },
 ];

@@ -5,12 +5,19 @@ import { metaConfigs } from "@/constant/configs";
 const HeroSection = () => {
   return (
     <BackgroundBeamsWithCollision className="bg-transparent">
-      <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight">
+      <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-primary font-sans tracking-tight">
         Trung tâm bồi dưỡng trí tuệ
         <br />
         <div className="mx-auto inline-block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
-          <div className="bg-clip-text bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
-            <span className="">{metaConfigs.title as string}</span>
+          <div className="bg-clip-text text-wrap bg-no-repeat text-transparent bg-gradient-to-r py-4 from-purple-500 via-violet-500 to-pink-500 [text-shadow:0_0_rgba(0,0,0,0.1)]">
+            <p
+              className="max-w-96 md:max-w-full"
+              style={{
+                overflowWrap: "break-word",
+              }}
+            >
+              {metaConfigs.title as string}
+            </p>
           </div>
         </div>
       </h2>

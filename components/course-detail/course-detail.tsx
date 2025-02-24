@@ -277,8 +277,16 @@ const coursesContent = {
           <li>
             ✔️{" "}
             <strong>
-              Tự tin ứng tuyển vào các vị trí Front-end Developer, Full-stack
-              Developer tại các công ty công nghệ
+              Tự tin ứng tuyển vào các vị trí Front-end Developer tại các công
+              ty công nghệ
+            </strong>
+          </li>
+          <li>
+            ✔️{" "}
+            <strong>
+              Nắm được các kỹ năng cần có của 1 lập trình viên thực thụ như: Kỹ
+              Năng Lập Trình (Technical Skills), Kỹ Năng Giải Quyết Vấn Đề
+              (Problem-Solving), Kỹ Năng Học Hỏi & Cập Nhật Công Nghệ
             </strong>
           </li>
         </ul>
