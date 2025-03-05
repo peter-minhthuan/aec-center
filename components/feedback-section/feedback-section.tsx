@@ -48,7 +48,7 @@ const FeedbackSection = () => {
   ];
 
   return (
-    <div suppressHydrationWarning>
+    <div suppressHydrationWarning className="hidden md:block">
       <AnimatedTestimonials testimonials={testimonials} />
     </div>
   );

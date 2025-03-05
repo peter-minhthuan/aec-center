@@ -5,6 +5,7 @@ import HeroSection from "../hero-section/hero-section";
 import FeedbackSection from "../feedback-section/feedback-section";
 import CourseSection from "../courses-section/courses-section";
 import Footer from "../footer/footer";
+import TeacherSession from "../teachers-section/teachers-section";
 // import AboutSection from "../about-section/about-section";
 
 const HomePage = () => {
@@ -16,9 +17,9 @@ const HomePage = () => {
         <CourseSection />
       </div>
 
-      {/* <div className="pt-20">
-        <AboutSection />
-      </div> */}
+      <div className="pt-20">
+        <TeacherSession />
+      </div>
 
       <div className="pt-20">
         <FeedbackSection />

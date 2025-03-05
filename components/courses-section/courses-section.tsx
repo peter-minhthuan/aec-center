@@ -8,9 +8,9 @@ const CourseSection = () => {
   return (
     <div id={courseId}>
       <TextGenerateEffect
-        words={"Các khóa học tại Authentic EDU"}
+        words={"Khóa học tại Authentic EDU"}
         className="text-center"
-        textClassname="text-2xl lg:text-4xl capitalize"
+        textClassname="text-2xl lg:text-3xl capitalize"
       />
       <div className="max-w-5xl mx-auto lg:px-8">
         <HoverEffect items={courses} />
