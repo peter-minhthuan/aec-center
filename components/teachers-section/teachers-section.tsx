@@ -65,7 +65,7 @@ const teachers = [
     name: "Dương Thị Hồng Huynh",
     subject: "Lý",
     yearGraduated: 2013,
-    degree: "Thạc sĩ",
+    degree: "Đại học",
     worked: "Sao Việt",
     university: "Đại học Sư Phạm Thành Phố Hồ Chí Minh",
     exp: 11,
