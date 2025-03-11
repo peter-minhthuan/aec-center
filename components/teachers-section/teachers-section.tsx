@@ -77,54 +77,52 @@ const teachers = [
 const TeacherSession = () => {
   return (
     <div className="w-full">
-      <div>
-        <div className="container">
-          <TextGenerateEffect
-            words={"Đội ngũ giáo viên của chúng tôi"}
-            className="text-center"
-            textClassname="text-2xl lg:text-3xl capitalize"
-          />
+      <div className="container">
+        <TextGenerateEffect
+          words={"Đội ngũ giáo viên"}
+          className="text-center"
+          textClassname="text-2xl lg:text-3xl capitalize"
+        />
 
-          <Table className="mt-14">
-            <TableCaption>Danh sách giáo viên tại AEC</TableCaption>
-            <TableHeader>
-              <TableRow>
-                <TableHead className="w-[50px]">STT</TableHead>
-                <TableHead>Giáo viên</TableHead>
-                <TableHead>Môn học</TableHead>
-                <TableHead>Năm tốt nghiệp</TableHead>
-                <TableHead>Trường đại học</TableHead>
-                <TableHead>Trình độ</TableHead>
-                <TableHead>Nơi làm việc</TableHead>
-                <TableHead>Số năm kinh nghiệm</TableHead>
-                <TableHead>Thế mạnh</TableHead>
+        <Table className="mt-14">
+          <TableCaption>Danh sách giáo viên tại AEC</TableCaption>
+          <TableHeader>
+            <TableRow>
+              <TableHead className="w-[50px]">STT</TableHead>
+              <TableHead>Giáo viên</TableHead>
+              <TableHead>Môn học</TableHead>
+              <TableHead>Năm tốt nghiệp</TableHead>
+              <TableHead>Trường đại học</TableHead>
+              <TableHead>Trình độ</TableHead>
+              <TableHead>Nơi làm việc</TableHead>
+              <TableHead>Số năm kinh nghiệm</TableHead>
+              <TableHead>Thế mạnh</TableHead>
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {teachers.map((teacher) => (
+              <TableRow key={teacher.id}>
+                <TableCell>{teacher.id}</TableCell>
+                <TableCell className="font-medium">{teacher.name}</TableCell>
+                <TableCell>{teacher.subject}</TableCell>
+                <TableCell>{teacher.yearGraduated}</TableCell>
+                <TableCell>{teacher.university}</TableCell>
+                <TableCell>{teacher.degree}</TableCell>
+                <TableCell>{teacher.worked}</TableCell>
+                <TableCell>{teacher.exp}</TableCell>
+                <TableCell className="max-w-sm">{teacher.note}</TableCell>
               </TableRow>
-            </TableHeader>
-            <TableBody>
-              {teachers.map((teacher) => (
-                <TableRow key={teacher.id}>
-                  <TableCell>{teacher.id}</TableCell>
-                  <TableCell className="font-medium">{teacher.name}</TableCell>
-                  <TableCell>{teacher.subject}</TableCell>
-                  <TableCell>{teacher.yearGraduated}</TableCell>
-                  <TableCell>{teacher.university}</TableCell>
-                  <TableCell>{teacher.degree}</TableCell>
-                  <TableCell>{teacher.worked}</TableCell>
-                  <TableCell>{teacher.exp}</TableCell>
-                  <TableCell className="max-w-sm">{teacher.note}</TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-            <TableFooter>
-              <TableRow>
-                <TableCell colSpan={8}>Tổng số giáo viên</TableCell>
-                <TableCell className="text-right">
-                  {teachers.length} giáo viên
-                </TableCell>
-              </TableRow>
-            </TableFooter>
-          </Table>
-        </div>
+            ))}
+          </TableBody>
+          <TableFooter>
+            <TableRow>
+              <TableCell colSpan={8}>Tổng số giáo viên</TableCell>
+              <TableCell className="text-right">
+                {teachers.length} giáo viên
+              </TableCell>
+            </TableRow>
+          </TableFooter>
+        </Table>
       </div>
     </div>
   );

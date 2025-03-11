@@ -6,6 +6,7 @@ import FeedbackSection from "../feedback-section/feedback-section";
 import CourseSection from "../courses-section/courses-section";
 import Footer from "../footer/footer";
 import TeacherSession from "../teachers-section/teachers-section";
+import ScheduleTable from "../schedule/schedule";
 // import AboutSection from "../about-section/about-section";
 
 const HomePage = () => {
@@ -19,6 +20,10 @@ const HomePage = () => {
 
       <div className="pt-20">
         <TeacherSession />
+      </div>
+
+      <div className="pt-20">
+        <ScheduleTable />
       </div>
 
       <div className="pt-20">
