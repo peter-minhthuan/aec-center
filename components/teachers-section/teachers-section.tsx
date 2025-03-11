@@ -19,7 +19,7 @@ const teachers = [
     degree: "Thạc sĩ",
     worked: "Đinh Thiện Lý",
     university: "Đại học Sư Phạm Thành Phố Hồ Chí Minh",
-    exp: 11,
+    exp: 4,
     note: `Thạc sĩ hóa hữu cơ, tốt nghiệp 2018, ĐHKHTN TP HCM, luyện thi ĐH, bài tập thực tiễn,
     giúp HS chưa giỏi có niềm tin hơn`,
   },
