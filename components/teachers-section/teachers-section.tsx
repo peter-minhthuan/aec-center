@@ -13,6 +13,18 @@ import { TextGenerateEffect } from "../ui/text-generate-effect";
 const teachers = [
   {
     id: 1,
+    name: "Nguyễn Hoài Phương",
+    subject: "Hóa",
+    yearGraduated: 2012,
+    degree: "Thạc sĩ",
+    worked: "Đinh Thiện Lý",
+    university: "Đại học Sư Phạm Thành Phố Hồ Chí Minh",
+    exp: 11,
+    note: `Thạc sĩ hóa hữu cơ, tốt nghiệp 2018, ĐHKHTN TP HCM, luyện thi ĐH, bài tập thực tiễn,
+    giúp HS chưa giỏi có niềm tin hơn`,
+  },
+  {
+    id: 2,
     name: "Lê Chiến Thắng",
     subject: "Toán",
     yearGraduated: 2013,
@@ -24,8 +36,8 @@ const teachers = [
     hiểu và hài hước, vận dụng thực tế, sâu sắc từng học sinh`,
   },
   {
-    id: 2,
-    name: "Ngô Ngọc Phương Uyên",
+    id: 3,
+    name: "Ngô Ngọc Phương Quyên",
     subject: "Văn",
     yearGraduated: 2023,
     degree: "Đại học (đang học thạc sĩ)",
@@ -35,7 +47,7 @@ const teachers = [
     note: `Trẻ, nhiệt tình, nhẹ nhàng, biết sử dụng công nghệ, biết cách quan tâm đến học sinh`,
   },
   {
-    id: 3,
+    id: 4,
     name: "Lê Thị Bích Thùy",
     subject: "Anh Văn",
     yearGraduated: 2011,
@@ -47,7 +59,7 @@ const teachers = [
     lớp 10, Đại học, chương trình Bộ Giáo Dục`,
   },
   {
-    id: 4,
+    id: 5,
     name: "Bùi Minh Thuận",
     subject: "Tin",
     yearGraduated: 2022,
@@ -61,7 +73,7 @@ const teachers = [
     ,định hướng IT, phỏng vấn xin việc làm.`,
   },
   {
-    id: 5,
+    id: 6,
     name: "Dương Thị Hồng Huynh",
     subject: "Lý",
     yearGraduated: 2013,

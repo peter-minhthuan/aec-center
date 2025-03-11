@@ -11,6 +11,6 @@ export const metaConfigs: Metadata = {
     index: true,
   },
   openGraph: {
-    images: "/assets/images/open-graph.png",
+    images: "/assets/images/open-graph.jpg",
   },
 };
