@@ -18,6 +18,7 @@ const teachers = [
     yearGraduated: 2012,
     degree: "Thạc sĩ",
     worked: "Đinh Thiện Lý",
+    working: "Không",
     university: "Đại học Sư Phạm Thành Phố Hồ Chí Minh",
     exp: 4,
     note: `Thạc sĩ hóa hữu cơ, tốt nghiệp 2018, ĐHKHTN TP HCM, luyện thi ĐH, bài tập thực tiễn,
@@ -30,6 +31,7 @@ const teachers = [
     yearGraduated: 2013,
     degree: "Đại học",
     worked: "Sao Việt",
+    working: "Không",
     university: "Đại học Sư Phạm Thành Phố Hồ Chí Minh",
     exp: 11,
     note: `Hiểu học sinh, làm TT Toán THPT trường tư, biết cách quan tâm học sinh. Phương pháp giảng dạy dễ 
@@ -42,6 +44,7 @@ const teachers = [
     yearGraduated: 2023,
     degree: "Đại học (đang học thạc sĩ)",
     worked: "Sao Việt",
+    working: "Không",
     university: "Đại học Sư Phạm Thành Phố Hồ Chí Minh",
     exp: 2,
     note: `Trẻ, nhiệt tình, nhẹ nhàng, biết sử dụng công nghệ, biết cách quan tâm đến học sinh`,
@@ -52,7 +55,8 @@ const teachers = [
     subject: "Anh Văn",
     yearGraduated: 2011,
     degree: "Thạc sĩ",
-    worked: "Đại học Võ Trường Toản Cần Thơ, Chuyên Trần Văn Giàu Long An",
+    worked: "ĐH Võ Trường Toản - Cần Thơ",
+    working: "Chuyên Trần Văn Giàu - Long An",
     university: "Đại học Cần Thơ",
     exp: 13,
     note: `Chuyên dạy FCE, CAE, CPE và các kì thi HSG, Olympic, Luyện thi lên
@@ -65,6 +69,7 @@ const teachers = [
     yearGraduated: 2022,
     degree: "Đại học",
     worked: "Trung tâm lập trình BeCodeching",
+    working: "LF Gloabl tech (Middle FE, Backend developer (Nestjs),...)",
     university: "Học viên công nghệ Bưu chính viễn thông (PTIT)",
     exp: 2.5,
     note: `Trẻ, có cách gỉang dạy lập trình phù hợp cho người mới bắt đầu.
@@ -79,6 +84,7 @@ const teachers = [
     yearGraduated: 2013,
     degree: "Đại học",
     worked: "Sao Việt",
+    working: "Không",
     university: "Đại học Sư Phạm Thành Phố Hồ Chí Minh",
     exp: 11,
     note: `Nhiệt tình, nhẹ nhàng, có kinh nghiệm quan tâm chăm sóc học sinh,
@@ -106,7 +112,8 @@ const TeacherSession = () => {
               <TableHead>Năm tốt nghiệp</TableHead>
               <TableHead>Trường đại học</TableHead>
               <TableHead>Trình độ</TableHead>
-              <TableHead>Nơi làm việc</TableHead>
+              <TableHead>Nơi đã làm việc</TableHead>
+              <TableHead>Nơi đang làm việc</TableHead>
               <TableHead>Số năm kinh nghiệm</TableHead>
               <TableHead>Thế mạnh</TableHead>
             </TableRow>
@@ -121,6 +128,7 @@ const TeacherSession = () => {
                 <TableCell>{teacher.university}</TableCell>
                 <TableCell>{teacher.degree}</TableCell>
                 <TableCell>{teacher.worked}</TableCell>
+                <TableCell>{teacher.working}</TableCell>
                 <TableCell>{teacher.exp}</TableCell>
                 <TableCell className="max-w-sm">{teacher.note}</TableCell>
               </TableRow>
