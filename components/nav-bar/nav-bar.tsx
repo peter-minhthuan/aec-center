@@ -47,6 +47,13 @@ const NavBar = () => {
         </li>
         <li
           className={cn("hover:text-primary transition-all duration-200 py-3", {
+            "text-primary": path.includes("/posts"),
+          })}
+        >
+          <Link href={"/posts"}>Bài viết</Link>
+        </li>
+        <li
+          className={cn("hover:text-primary transition-all duration-200 py-3", {
             "text-primary": path.includes("/about-us"),
           })}
         >
