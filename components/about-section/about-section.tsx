@@ -100,7 +100,7 @@ const dummyContent = [
     title: "Ý nghĩa của Authentic EDU",
     description: (
       <div className="text-base">
-        <p>ACE là viết tắt của Authentic Education Center.</p>
+        <p>AEC là viết tắt của Authentic Education Center.</p>
         <br />
         <p>
           Logo của Authentic EDU với màu tím tượng trưng cho tuổi học trò tươi

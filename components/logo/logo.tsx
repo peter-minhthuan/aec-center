@@ -7,11 +7,11 @@ const Logo = () => {
     <h1 className="text-2xl font-bold text-center text-primary">
       <Link href={"/"}>
         <Image
-          src={"/assets/logo.jpg"}
+          src={"/assets/logo.png"}
           width={78}
           height={78}
           alt="Authentic EDU"
-          className="rounded-sm w-14 h-12 md:w-20 md:h-16"
+          className="rounded-sm w-14 h-12 md:w-20 md:h-20"
         />
       </Link>
     </h1>
