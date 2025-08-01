@@ -136,7 +136,7 @@ const TeacherSession = () => {
           </TableBody>
           <TableFooter>
             <TableRow>
-              <TableCell colSpan={8}>Tổng số giáo viên</TableCell>
+              <TableCell colSpan={9}>Tổng số giáo viên</TableCell>
               <TableCell className="text-right">
                 {teachers.length} giáo viên
               </TableCell>

@@ -1,5 +1,9 @@
+"use client";
 import Image from "next/image";
 import React from "react";
+import { PhotoProvider, PhotoView } from "react-photo-view";
+
+import "react-photo-view/dist/react-photo-view.css";
 
 const images = [
   {
@@ -27,7 +31,16 @@ const images = [
     alt: "math",
     title: "Toán",
   },
-
+  {
+    src: "/assets/intro-present.jpg",
+    alt: "present",
+    title: "Kĩ năng thuyết trình",
+  },
+  {
+    src: "/assets/present-detail.jpg",
+    alt: "present",
+    title: "Kĩ năng thuyết trình",
+  },
   {
     src: "/assets/present-poster-1.jpg",
     alt: "present",
@@ -38,7 +51,6 @@ const images = [
     alt: "present",
     title: "Kĩ năng thuyết trình",
   },
-
   {
     src: "/assets/literature-poster-1.jpg",
     alt: "literature",
@@ -144,20 +156,25 @@ const PosterSection = () => {
   return (
     <div className="container">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-        {images.map((image) => (
-          <div key={image.src}>
-            <Image
-              alt={image.alt}
-              src={image.src}
-              width={320}
-              height={300}
-              className="rounded-md h-[400px] w-full"
-            />
-            <h4 className="text-sm font-bold mt-3 text-center">
-              {image.title}
-            </h4>
-          </div>
-        ))}
+        <PhotoProvider>
+          {images.map((image) => (
+            <div key={image.src} className="bg-card rounded-md shadow-lg py-5">
+              <PhotoView key={image.src} src={image.src}>
+                <Image
+                  alt={image.alt}
+                  src={image.src}
+                  width={320}
+                  height={300}
+                  className="rounded-md h-[400px] w-full object-contain"
+                />
+              </PhotoView>
+
+              <h4 className="text-sm font-bold mt-3 text-center">
+                {image.title}
+              </h4>
+            </div>
+          ))}
+        </PhotoProvider>
       </div>
     </div>
   );

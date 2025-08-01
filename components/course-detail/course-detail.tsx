@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
@@ -7,6 +8,121 @@ import { useParams } from "next/navigation";
 import React from "react";
 
 const coursesContent = {
+  [courseSlug.present]: {
+    description: (
+      <div className="text-foreground">
+        {/* <Image
+          src={"/assets/intro-present.jpg"}
+          width={500}
+          height={350}
+          alt="kỹ năng thuyết trình"
+          className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
+        /> */}
+
+        <iframe
+          className="aspect-video"
+          src="https://www.youtube.com/embed/414h8tsDsM4"
+          title='📢 TỔNG KẾT BUỔI HỌC "TỰ TIN CẤT LỜI" ĐẦU TIÊN: BẮT ĐẦU HÀNH TRÌNH BỨT PHÁ! 🚀'
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+        <br />
+
+        <section className="space-y-2">
+          <p>
+            Bạn từng run rẩy khi đứng trước đám đông? Bạn có những ý tưởng tuyệt
+            vời nhưng lại khó diễn đạt trọn vẹn?
+          </p>
+          <p>
+            <strong>Khóa học "TỰ TIN CẤT LỜI"</strong> chính là bước đệm giúp
+            bạn lột xác và tỏa sáng với kỹ năng thuyết trình chuyên nghiệp!
+          </p>
+
+          <br />
+
+          {/* <h3>TẠI SAO BẠN NÊN THAM GIA?</h3> */}
+
+          <ul className="space-y-2">
+            <li>
+              <strong>XÓA TAN NỖI SỢ THUYẾT TRÌNH:</strong>
+              <br />
+              Biến sự lo lắng thành động lực – giúp bạn bước lên sân khấu với
+              tâm thế tự tin, vững vàng.
+            </li>
+            <li>
+              <strong>HOÀN THIỆN KỸ NĂNG MỘT CÁCH TOÀN DIỆN:</strong>
+              <br />
+              <ul>
+                <li>Cấu trúc bài nói logic và thuyết phục</li>
+                <li>Sử dụng ngôn ngữ cơ thể đúng cách</li>
+                <li>Kỹ thuật làm chủ giọng nói, ánh mắt</li>
+                <li>Nghệ thuật tương tác và truyền cảm hứng cho khán giả</li>
+              </ul>
+            </li>
+            <li>
+              <strong>TỰ TIN GIAO TIẾP TRƯỚC MỌI TÌNH HUỐNG:</strong>
+              <br />
+              Không chỉ là kỹ năng thuyết trình, bạn sẽ rèn luyện phong thái,
+              khả năng phản xạ và giao tiếp hiệu quả trong công việc và cuộc
+              sống.
+            </li>
+          </ul>
+          <br />
+          {/* <h3>ĐIỂM ĐẶC BIỆT CỦA KHÓA HỌC</h3> */}
+          <ul className="space-y-2">
+            <li>
+              <strong>100% THỰC HÀNH TRONG 5 BUỔI:</strong> <br /> Không lý
+              thuyết suông – bạn sẽ được "học bằng hành", luyện tập thực tế
+              trong mỗi buổi học.
+            </li>
+            <li>
+              <strong>HƯỚNG DẪN BỞI CHUYÊN GIA GIÀU KINH NGHIỆM:</strong>
+              <br /> Người đồng hành giúp bạn khai phá tiềm năng bản thân.
+            </li>
+            <li>
+              <strong>MÔI TRƯỜNG HỌC TẬP CỞI MỞ, TRUYỀN CẢM HỨNG:</strong>
+              <br /> Học từ chính trải nghiệm của mình và từ những người xung
+              quanh.
+            </li>
+          </ul>
+
+          <h3>THÔNG TIN KHÓA HỌC</h3>
+          <ul className="space-y-2">
+            <li>
+              <strong>Tên khóa học:</strong> Tự Tin Cất Lời – Kỹ Năng Thuyết
+              Trình
+            </li>
+            <li>
+              <strong>Thời lượng:</strong> 5 buổi (100% thực hành)
+            </li>
+            <li>
+              <strong>Hình thức:</strong> Offline tại TP.HCM / Hà Nội (hoặc theo
+              thông báo từ BTC)
+            </li>
+            <li>
+              <strong>Đối tượng:</strong> Học sinh, sinh viên, người đi làm,
+              người muốn cải thiện kỹ năng nói trước đám đông
+            </li>
+            <li>
+              <strong>Đơn vị tổ chức:</strong> Authentic EDU
+            </li>
+          </ul>
+
+          <br />
+
+          <Image
+            src={"/assets/present-detail.jpg"}
+            width={500}
+            height={350}
+            alt="kỹ năng thuyết trình"
+            className="mx-auto mb-8 rounded-md max-w-[500px] w-full"
+          />
+        </section>
+      </div>
+    ),
+  },
   [courseSlug.math]: {
     description: (
       <div className="text-foreground">
@@ -424,8 +540,8 @@ const CourseDetail = () => {
 
   return (
     <div className="pb-20">
-      <div className="container">
-        <div className="lg:px-24 px-4">
+      <div className="max-w-[920px] w-full mx-auto">
+        <div className="lg:px-24 px-4 bg-card py-12 shadow-lg rounded-md">
           {coursesContent[slug as unknown as any].description}
         </div>
       </div>

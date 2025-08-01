@@ -5,6 +5,7 @@ export const courseSlug = {
   sat: "/course/sat",
   english: "/course/english",
   physics: "/course/physics",
+  present: "/course/present",
 };
 
 export const courses = [
@@ -17,6 +18,14 @@ export const courses = [
         Toán có thể mở ra nhiều cơ hội cho học sinh.`,
     link: courseSlug.math,
     image: "/assets/math.jpg",
+  },
+    {
+    title: "Kỹ năng thuyết trình",
+    description: `Kỹ năng thuyết trình là khóa học thực hành 100% trong 5 buổi, 
+    giúp bạn vượt qua nỗi sợ nói trước đám đông, làm chủ kỹ năng trình bày, ngôn ngữ cơ thể và giao tiếp trước công chúng. Học cùng giảng viên giàu kinh nghiệm, bạn sẽ từng bước tự tin thể hiện bản thân và tỏa sáng trong mọi tình huống!
+`,
+    link: courseSlug.present,
+    image: "/assets/intro-present.jpg",
   },
   {
     title: "Tiếng Anh",
