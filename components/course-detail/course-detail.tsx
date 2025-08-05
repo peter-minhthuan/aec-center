@@ -31,87 +31,40 @@ const coursesContent = {
         <br />
 
         <section className="space-y-2">
-          <p>
-            Bạn từng run rẩy khi đứng trước đám đông? Bạn có những ý tưởng tuyệt
-            vời nhưng lại khó diễn đạt trọn vẹn?
-          </p>
-          <p>
-            <strong>Khóa học "TỰ TIN CẤT LỜI"</strong> chính là bước đệm giúp
-            bạn lột xác và tỏa sáng với kỹ năng thuyết trình chuyên nghiệp!
-          </p>
-
+          GÓC BẬT MÍ NHÂN VẬT HOT NHẤT KHÓA HỌC 🔥
           <br />
-
-          {/* <h3>TẠI SAO BẠN NÊN THAM GIA?</h3> */}
-
-          <ul className="space-y-2">
-            <li>
-              <strong>XÓA TAN NỖI SỢ THUYẾT TRÌNH:</strong>
-              <br />
-              Biến sự lo lắng thành động lực – giúp bạn bước lên sân khấu với
-              tâm thế tự tin, vững vàng.
-            </li>
-            <li>
-              <strong>HOÀN THIỆN KỸ NĂNG MỘT CÁCH TOÀN DIỆN:</strong>
-              <br />
-              <ul>
-                <li>Cấu trúc bài nói logic và thuyết phục</li>
-                <li>Sử dụng ngôn ngữ cơ thể đúng cách</li>
-                <li>Kỹ thuật làm chủ giọng nói, ánh mắt</li>
-                <li>Nghệ thuật tương tác và truyền cảm hứng cho khán giả</li>
-              </ul>
-            </li>
-            <li>
-              <strong>TỰ TIN GIAO TIẾP TRƯỚC MỌI TÌNH HUỐNG:</strong>
-              <br />
-              Không chỉ là kỹ năng thuyết trình, bạn sẽ rèn luyện phong thái,
-              khả năng phản xạ và giao tiếp hiệu quả trong công việc và cuộc
-              sống.
-            </li>
-          </ul>
+          📣 Nhà Authentic quyết định "TUNG BÍ MẬT" về giáo viên của khóa học
+          “TỰ TIN CẤT LỜI”
           <br />
-          {/* <h3>ĐIỂM ĐẶC BIỆT CỦA KHÓA HỌC</h3> */}
-          <ul className="space-y-2">
-            <li>
-              <strong>100% THỰC HÀNH TRONG 5 BUỔI:</strong> <br /> Không lý
-              thuyết suông – bạn sẽ được "học bằng hành", luyện tập thực tế
-              trong mỗi buổi học.
-            </li>
-            <li>
-              <strong>HƯỚNG DẪN BỞI CHUYÊN GIA GIÀU KINH NGHIỆM:</strong>
-              <br /> Người đồng hành giúp bạn khai phá tiềm năng bản thân.
-            </li>
-            <li>
-              <strong>MÔI TRƯỜNG HỌC TẬP CỞI MỞ, TRUYỀN CẢM HỨNG:</strong>
-              <br /> Học từ chính trải nghiệm của mình và từ những người xung
-              quanh.
-            </li>
-          </ul>
-
-          <h3>THÔNG TIN KHÓA HỌC</h3>
-          <ul className="space-y-2">
-            <li>
-              <strong>Tên khóa học:</strong> Tự Tin Cất Lời – Kỹ Năng Thuyết
-              Trình
-            </li>
-            <li>
-              <strong>Thời lượng:</strong> 5 buổi (100% thực hành)
-            </li>
-            <li>
-              <strong>Hình thức:</strong> Offline tại TP.HCM / Hà Nội (hoặc theo
-              thông báo từ BTC)
-            </li>
-            <li>
-              <strong>Đối tượng:</strong> Học sinh, sinh viên, người đi làm,
-              người muốn cải thiện kỹ năng nói trước đám đông
-            </li>
-            <li>
-              <strong>Đơn vị tổ chức:</strong> Authentic EDU
-            </li>
-          </ul>
-
+          👉 GV Hướng dẫn: thầy LÊ THANH LỘC <br />
+          🔥 Một MC “cháy sân khấu” – với nhiều năm kinh nghiệm dẫn chương
+          trình.
           <br />
-
+          🌟 Một người thầy tận tâm luôn đồng hành cùng nhiều học sinh phá bỏ
+          rào cản của nỗi sợ để dám nói, biết nói và nói thật hay trước đám
+          đông!
+          <br /> 👉 Một người bạn chân thành siêu dễ gần, siêu truyền cảm hứng
+          và đặc biệt hiểu tâm lý học sinh giúp học sinh nói hay – nghĩ tốt –
+          thể hiện bản thân một cách TỰ NHIÊN và ĐẲNG CẤP. Khóa học “TỰ TIN CẤT
+          LỜI”, không phải là lớp học lý thuyết.
+          <br /> Đây là hành trình:
+          <br /> ✅ Gỡ bỏ rào cản tâm lý <br />✅ Rèn giọng – tập thần thái –
+          luyện ánh nhìn
+          <br /> ✅ Tự tin trình bày quan điểm trước người lạ
+          <br /> 🎉🎉🎉 Ưu đãi giới hạn chỉ dành cho học sinh đăng ký sớm:
+          <br /> 🎁 02 buổi thực hành chủ đề tự chọn <br />
+          🎁 90 phút ôn tập Toán miễn phí
+          <br /> 🎁 01 buổi học ngoại khóa cực kỳ thú vị
+          <br /> 📞 Liên hệ ngay: 0907 792 604 – Thầy LÊ CHIẾN THẮNG <br />
+          ❤️ Authentic EDU – Nơi học trò được là chính mình!
+          <br />
+          🎓 Authentic EDU |Trung Tâm Phát Triển Giáo Dục & Kỹ Năng Học Đường
+          <br />
+          📍 Tòa nhà MIND X, 165 -167, Đ. Nguyễn Thị Thập, KDC Him Lam, P. Tân
+          Hưng (Quận 7 cũ) Tp. Hồ Chí Minh
+          <br /> 📞 Hotline: 0907 792 604 – Thầy Lê Chiến Thắng
+          <br />
+          <br />
           <Image
             src={"/assets/present-detail.jpg"}
             width={500}
